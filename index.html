@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>MobileDev Landing Page</title>
+  <link rel="shortcut icon" href="asset/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  
+  <header>
+    <div class="logo">Mobile<span>Dev</span></div>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#demos">Demos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  
+  <section class="hero" id="home">
+    <div class="firstinnerlayer"></div>
+    <div class="hero-content">
+      <h1>Fast Mobile App Development</h1>
+      <p>Build Android & iOS apps quickly, without ads and with great UI.</p>
+      <a href="#services" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <video autoplay muted loop playsinline class="bg-video">
+  <source src="asset/backvid.mp4" type="video/mp4">
+  </video>  
+  
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>We provide a lightweight, responsive template to kickstart your mobile app landing page. Designed with speed and simplicity in mind.</p>
+  </section>
+
+  
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Android Apps</h3>
+        <p>Native & hybrid Android solutions for any industry.</p>
+      </div>
+      <div class="card">
+        <h3>iOS Apps</h3>
+        <p>High performance iOS applications for your business.</p>
+      </div>
+      <div class="card">
+        <h3>Web Apps</h3>
+        <p>Responsive web apps accessible from any device.</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="demos" id="demos">
+  <h2>Live Demos</h2>
+  <div class="demo-grid">
+    <div class="demo-box1">
+      <h3>Mobile App Demo</h3>
+      <iframe width="100%" height="200" src="https://www.youtube.com/embed/yKCAna4SrOA?si=Oel7LWo3Jo3rXkaL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+    </div>
+
+    <div class="demo-box2">
+      <h3>Android Demo</h3>
+      <iframe width="100%" height="200" src="https://www.youtube.com/embed/P4g1_g0ESOk?si=eUF8V_7BlHHT5zZj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="demo-box3">
+      <h3>iOS Demo</h3>
+      <iframe width="100%" height="200" src="https://www.youtube.com/embed/Fy98tkc3Ivw?si=UeGgO963DU4GM73B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="demo-box4">
+      <h3>Web App Demo</h3>
+      <iframe width="100%" height="200" src="https://www.youtube.com/embed/ZK-rNEhJIDs?si=-alrC3eZhxorRxFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+
+  
+  <footer id="contact">
+    <div class="footer-content">
+      <div class="social-media">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h3>Send Feedback</h3>
+         <form id="feedbackForm">
+           <input type="text" name="name" id="name" placeholder="Your Name" required>
+           <input type="email" name="email" id="email" placeholder="Your Email" required>
+           <textarea name="feedback" id="feedback" rows="4" placeholder="Your Feedback" required></textarea>
+           <button type="submit">Submit</button>
+         </form>
+        <p id="formMessage" style="margin-top:16px;"></p>
+      </div>
+    </div>
+    <p class="footer-bottom">&copy; 2025 MobileDev. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
